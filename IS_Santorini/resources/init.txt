@@ -1,0 +1,8 @@
+
+// Player 1 setup:
+
+	A1 A2
+
+// Player 2 setup:
+
+	E4 E5

@@ -1,0 +1,197 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\QAO">
+      <UniqueIdentifier>{47a8d2a4-fbd0-4451-887b-098b4061a721}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\QAO">
+      <UniqueIdentifier>{e2f55cc0-c953-4317-a9b3-e9d1443cb9b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\SO">
+      <UniqueIdentifier>{24ea64dc-126f-4245-a729-bf55e23007df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\SO">
+      <UniqueIdentifier>{f5364997-5757-429f-9f5f-402d04956fcf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GR">
+      <UniqueIdentifier>{780cd791-0ef3-4aa2-b9b7-8a9918e353d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GR">
+      <UniqueIdentifier>{0f2c8e58-9bb8-4b37-9aff-24bf0a25d4a2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HelperStructs.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MinimaxTree.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="QAO-Await.hpp">
+      <Filter>Header Files\QAO</Filter>
+    </ClInclude>
+    <ClInclude Include="QAO-Base.hpp">
+      <Filter>Header Files\QAO</Filter>
+    </ClInclude>
+    <ClInclude Include="QAO-Config.hpp">
+      <Filter>Header Files\QAO</Filter>
+    </ClInclude>
+    <ClInclude Include="QAO-Func.hpp">
+      <Filter>Header Files\QAO</Filter>
+    </ClInclude>
+    <ClInclude Include="QAO-Macro.hpp">
+      <Filter>Header Files\QAO</Filter>
+    </ClInclude>
+    <ClInclude Include="QAO-Module.hpp">
+      <Filter>Header Files\QAO</Filter>
+    </ClInclude>
+    <ClInclude Include="QAO-Ptr.hpp">
+      <Filter>Header Files\QAO</Filter>
+    </ClInclude>
+    <ClInclude Include="QAO-Registry.hpp">
+      <Filter>Header Files\QAO</Filter>
+    </ClInclude>
+    <ClInclude Include="SlabManager.hpp">
+      <Filter>Header Files\QAO</Filter>
+    </ClInclude>
+    <ClInclude Include="IOMgr.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectTID.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GlobalStore.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Semaphore.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ComputerPlayer.hpp">
+      <Filter>Header Files\SO</Filter>
+    </ClInclude>
+    <ClInclude Include="GameController.hpp">
+      <Filter>Header Files\SO</Filter>
+    </ClInclude>
+    <ClInclude Include="GameFlowFunc.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Gr-Module.hpp">
+      <Filter>Header Files\GR</Filter>
+    </ClInclude>
+    <ClInclude Include="Gr-Sprite.hpp">
+      <Filter>Header Files\GR</Filter>
+    </ClInclude>
+    <ClInclude Include="Gr-SpriteLoader.hpp">
+      <Filter>Header Files\GR</Filter>
+    </ClInclude>
+    <ClInclude Include="Gr-SpriteMgr.hpp">
+      <Filter>Header Files\GR</Filter>
+    </ClInclude>
+    <ClInclude Include="Gr-Transform.hpp">
+      <Filter>Header Files\GR</Filter>
+    </ClInclude>
+    <ClInclude Include="Gr-Draw.hpp">
+      <Filter>Header Files\GR</Filter>
+    </ClInclude>
+    <ClInclude Include="HumanPlayer.hpp">
+      <Filter>Header Files\SO</Filter>
+    </ClInclude>
+    <ClInclude Include="EstimateFunc.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CellHighlight.hpp">
+      <Filter>Header Files\SO</Filter>
+    </ClInclude>
+    <ClInclude Include="Random.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Greeter.hpp">
+      <Filter>Header Files\SO</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HelperStructs.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MinimaxTree.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="QAO-Base.cpp">
+      <Filter>Source Files\QAO</Filter>
+    </ClCompile>
+    <ClCompile Include="QAO-Ptr.cpp">
+      <Filter>Source Files\QAO</Filter>
+    </ClCompile>
+    <ClCompile Include="QAO-Registry.cpp">
+      <Filter>Source Files\QAO</Filter>
+    </ClCompile>
+    <ClCompile Include="IOMgr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GlobalStore.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ComputerPlayer.cpp">
+      <Filter>Source Files\SO</Filter>
+    </ClCompile>
+    <ClCompile Include="GameFlowFunc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameController.cpp">
+      <Filter>Source Files\SO</Filter>
+    </ClCompile>
+    <ClCompile Include="Gr-SpriteLoader.cpp">
+      <Filter>Source Files\GR</Filter>
+    </ClCompile>
+    <ClCompile Include="Gr-SpriteMgr.cpp">
+      <Filter>Source Files\GR</Filter>
+    </ClCompile>
+    <ClCompile Include="Gr-Draw.cpp">
+      <Filter>Source Files\GR</Filter>
+    </ClCompile>
+    <ClCompile Include="EstimateFunc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CellHighlight.cpp">
+      <Filter>Source Files\SO</Filter>
+    </ClCompile>
+    <ClCompile Include="Random.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HumanPlayer.cpp">
+      <Filter>Source Files\SO</Filter>
+    </ClCompile>
+    <ClCompile Include="Greeter.cpp">
+      <Filter>Source Files\SO</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Notes.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
